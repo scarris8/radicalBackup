@@ -1,0 +1,11 @@
+#!/bin/sh
+
+export SIMHOME=`pwd`
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rAircraftSizing/src
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rAirfoilTools/src
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rAswing/src
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rCommon/src
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rFlightGear/src
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rGeometryEngine/src
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rJSBsim/src
+export PYTHONPATH=$PYTHONPATH:$SIMHOME/rLogAnalysis/src
